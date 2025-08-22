@@ -29,13 +29,13 @@ const Contact = () => {
           <div className="contact-details">
             <h3>Contact Information</h3>
             <div className="contact-item">
-              <strong>Email:</strong> your.email@example.com
+              <strong>Email:</strong> sh.shahriar5@gmail.com
             </div>
             <div className="contact-item">
-              <strong>Phone:</strong> +1 (555) 123-4567
+              <strong>Phone:</strong> +8801679592991
             </div>
             <div className="contact-item">
-              <strong>Location:</strong> Your City, Country
+              <strong>Location:</strong> Dhaka, Bangladesh
             </div>
           </div>
         </div>

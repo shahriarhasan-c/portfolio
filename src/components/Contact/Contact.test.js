@@ -117,11 +117,11 @@ describe('Contact Component', () => {
   test('displays contact details', () => {
     render(<Contact />);
     expect(screen.getByText('Email:')).toBeInTheDocument();
-    expect(screen.getByText('your.email@example.com')).toBeInTheDocument();
+    expect(screen.getByText('sh.shahriar5@gmail.com')).toBeInTheDocument();
     expect(screen.getByText('Phone:')).toBeInTheDocument();
-    expect(screen.getByText('+1 (555) 123-4567')).toBeInTheDocument();
+    expect(screen.getByText('+8801679592991')).toBeInTheDocument();
     expect(screen.getByText('Location:')).toBeInTheDocument();
-    expect(screen.getByText('Your City, Country')).toBeInTheDocument();
+    expect(screen.getByText('Dhaka, Bangladesh')).toBeInTheDocument();
   });
 
 
