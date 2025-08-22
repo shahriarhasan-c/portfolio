@@ -1,4 +1,5 @@
 const resumeData = {
+  name: "Shahriar Hasan",
   workExperience: [
     {
       id: 1,

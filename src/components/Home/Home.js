@@ -1,5 +1,7 @@
 import React from 'react';
 import './Home.css';
+import profilePhoto from '../../assets/images/profile.jpg';
+import resumeData from '../../data/resumeData';
 
 const Home = () => {
   return (
@@ -9,8 +11,9 @@ const Home = () => {
       <div className="floating-element"></div>
       
       <div className="home-content">
+        <img src={profilePhoto} alt={resumeData.name} className="profile-photo" />
         <h1>Welcome to My Portfolio</h1>
-        <p>I'm a passionate developer creating amazing digital experiences.</p>
+        <p>I'm {resumeData.name}, a passionate developer creating amazing digital experiences.</p>
         
         <div className="home-cta">
           <a href="#projects" className="btn btn-primary">View My Work</a>

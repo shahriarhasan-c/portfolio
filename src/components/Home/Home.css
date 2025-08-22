@@ -30,6 +30,25 @@
   z-index: 2;
 }
 
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--white);
+  box-shadow: var(--shadow-xl);
+  margin-bottom: var(--spacing-6);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
 .home-content h1 {
   font-size: var(--font-size-5xl);
   font-weight: 700;
@@ -209,12 +228,22 @@
     max-width: 200px;
   }
   
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+  
   .floating-element {
     display: none; /* Hide on mobile for cleaner look */
   }
 }
 
 @media (max-width: 480px) {
+  .profile-photo {
+    width: 100px;
+    height: 100px;
+  }
+  
   .home-content h1 {
     font-size: var(--font-size-3xl);
   }
